@@ -13,20 +13,20 @@ body * {
 }
 .wrapper {
   margin: 0 auto;
-  width: 335px;
+  width: 80%;
   position: relative;
 }
 .bac-orange {
   position: absolute;
   background-color: #ee5009;
-  width: 255px;
+  width: 70%;
   height: 500px;
   right: 0;
 }
 
 .card {
   position: absolute;
-  width: 285px;
+  width: 70%;
   top: 50px;
   right: 50px;
 }
@@ -123,9 +123,7 @@ body * {
   .title {
     font-size: 44px;
   }
-  .action {
-    align-self: flex-start;
-  }
+
   .photos-big {
     display: flex;
     justify-content: space-between;
@@ -151,10 +149,10 @@ body * {
   }
 }
 @media (min-width: 1024px) {
-    .wrapper {
-        min-width: 900px;
-      }
-     .card {
+  .wrapper {
+    min-width: 900px;
+  }
+  .card {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -168,6 +166,9 @@ body * {
     margin-left: 10px;
     margin-bottom: 0;
     width: 33%;
+  }
+  .action {
+    align-self: flex-start;
   }
   .photos {
     width: 66%;
@@ -183,5 +184,4 @@ body * {
   .bac-orange {
     width: 500px;
   }
- 
 }
