@@ -173,12 +173,12 @@ body * {
     width: 66%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1250px) {
   .ex {
     height: 870px;
   }
   .wrapper {
-    min-width: 1024px;
+    min-width: 1100px;
   }
   .bac-orange {
     width: 500px;
