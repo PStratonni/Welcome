@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+}
+body * {
+  box-sizing: border-box;
+}
+
+.ex {
+  background-color: #1a1a1a;
+  padding: 50px 0;
+  margin: 20px 0;
+  height: 1600px;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 335px;
+  position: relative;
+}
+.bac-orange {
+  position: absolute;
+  background-color: #ee5009;
+  width: 255px;
+  height: 500px;
+  right: 0;
+}
+
+.card {
+  position: absolute;
+  width: 285px;
+  top: 50px;
+  right: 50px;
+}
+.welcome {
+  background-color: white;
+  padding: 20px 20px;
+  margin-bottom: 5px;
+}
+.title {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 36px;
+  color: #ee5009;
+  margin-bottom: 20px;
+}
+.descr {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.action {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: #ee5009;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+.women img {
+  height: 100%;
+}
+.women {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.juise img {
+  width: 100%;
+}
+.juise {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.organic {
+  background-color: #ee5009;
+  color: white;
+  padding: 20px 20px;
+  margin-bottom: 5px;
+}
+.title-org {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.descr-org {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.knife {
+  display: flex;
+  justify-content: start;
+  height: 200px;
+  overflow: hidden;
+}
+.knife img {
+  height: 100%;
+}
+@media (min-width: 768px) {
+  .ex {
+    height: 1170px;
+  }
+  .wrapper {
+    width: 760px;
+  }
+  .bac-orange {
+    width: 436px;
+    height: 370px;
+  }
+  .card {
+    width: 700px;
+  }
+  .welcome {
+    margin-bottom: 10px;
+  }
+  .title {
+    font-size: 44px;
+  }
+  .action {
+    align-self: flex-start;
+  }
+  .photos-big {
+    display: flex;
+    justify-content: space-between;
+  }
+  .photos-big > div {
+    width: 49%;
+    height: 420px;
+    margin-bottom: 10px;
+  }
+  .photos-small {
+    display: flex;
+    justify-content: space-between;
+  }
+  .photos-small > div {
+    width: 49%;
+    height: 300px;
+  }
+  .organic {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (min-width: 1024px) {
+    .wrapper {
+        min-width: 900px;
+      }
+     .card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 0;
+    width: 33%;
+  }
+  .photos {
+    width: 66%;
+  }
+}
+@media (min-width: 1200px) {
+  .ex {
+    height: 870px;
+  }
+  .wrapper {
+    min-width: 1024px;
+  }
+  .bac-orange {
+    width: 500px;
+  }
+ 
+}
